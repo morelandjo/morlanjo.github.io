@@ -20,6 +20,13 @@
   text-decoration: none;
 }
 </style>
+<script type="text/javascript">
+      document.getElementById('playButton').onclick = function(e){
+        move('.box')
+          .x(300)
+          .end();
+      };
+    </script>
 </head>
 <body>
 <a href="#" id="playButton">Play</a>
